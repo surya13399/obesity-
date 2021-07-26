@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253)
+    
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    text-align: center;  
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column h1
+  {
+      color: aqua;
+      
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 700;
+   font-display: 100;
+   font-variant: normal;
+   font-stretch: extra-expanded;
+    
+   
+  }
+  .column h1 span 
+  {
+      color: yellow;
+  }
+  .aaa h4
+  {
+      background-color: aqua;
+      color: white;
+      font-weight: 400;
+  }
+  .bbb span h1
+  {
+    text-align: left;
+    color: rgb(0, 60, 255);
+    font-weight: 300;
+  }
+  .ccc
+  {
+    text-align: left;
+    color: rgb(3, 247, 234);
+  }
+  .ddd
+  {
+    position:absolute; left:400px; 
+  }
+  .eee h5
+  {
+    position: absolute; top: 635px;
+    text-align: right;
+    color: aqua;
+  }
+  .fff
+  {
+    color:yellow; 
+    
+  }
+  .fff h1
+  {
+    position: absolute bottom: 90px;
+  }
+ 
+  .ggg
+  {
+    position: absolute; left: 350px;
+  }
+ .tab 
+ {
+   
+   width: 70%;
+   position: relative; left: 25px; bottom: 15px;
+ } 
+   
+ .lor h4
+ {
+     background-color: aqua;
+     color: white;
+     font-weight: 400;
+     position: relative; bottom: 45px;
+ }
+ hr
+ {
+   width: 0%;
+   height: 1000px;
+   position: absolute;
+   top: 22px;
+   right: 675px;
+   border: 1px lightskyblue dashed;
+   
+ }
+ .hole
+ {
+  color: aqua;
+      
+  font-family:   sans-serif;
+  font-size: 100%;
+  
+ }
+.tas h1
+{
+  color: yellow;
+}
+.dia
+{
+  color: rgb(0, 60, 255);
+  text-align: left;
+}
+.dia span
+{
+  color: yellow;
+}
+  
+.dia p
+{
+  color:rgb(40, 246, 253);
+  position: relative; bottom: 20px;
+}
